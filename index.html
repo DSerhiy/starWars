@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    #starWars {
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .starWars__cardsList {
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap: wrap;      
+    }
+    
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-basis: 20%;
+      padding: 0;      
+    }
+
+    .card__header {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .card__photo {
+      width: 90%;      
+    }
+
+    .card__footer {
+      padding-left: 15px;
+    }
+
+    .card__name {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div id="starWars"></div>
+  </div>
+
+  <script src="ajax.js"></script>
+  <script src="starWars.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
